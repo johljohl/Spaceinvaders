@@ -1,9 +1,10 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
-    border: solid 1px;
+    border: solid 15px;
     width: 300px;
     height: 300px;
+    margin: 20px 120px 0px 800px;
 }
 .grid div{
     width: 20px;
@@ -25,4 +26,16 @@
 
 .laser {
     background-color: orange;
+}
+body {
+    background-image: url(img/space.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+
+}
+h3 {
+    text-align: center;
+    margin-top: 400px;
 }
